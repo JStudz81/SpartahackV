@@ -148,14 +148,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\Startup.MobileApp.cs" />
+    <Compile Include="Controllers\ListController.cs" />
     <Compile Include="Controllers\TodoItemController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
+    <Compile Include="DataObjects\List.cs" />
     <Compile Include="DataObjects\TodoItem.cs" />
     <Compile Include="DataObjects\User.cs" />
     <Compile Include="Migrations\201901190802159_AddFieldsToUser.cs" />
     <Compile Include="Migrations\201901190802159_AddFieldsToUser.Designer.cs">
       <DependentUpon>201901190802159_AddFieldsToUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201901191023194_PrelimList.cs" />
+    <Compile Include="Migrations\201901191023194_PrelimList.Designer.cs">
+      <DependentUpon>201901191023194_PrelimList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201901191041244_PrelimListController.cs" />
+    <Compile Include="Migrations\201901191041244_PrelimListController.Designer.cs">
+      <DependentUpon>201901191041244_PrelimListController.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\SpartaHackVContext.cs" />
@@ -180,6 +190,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201901190802159_AddFieldsToUser.resx">
       <DependentUpon>201901190802159_AddFieldsToUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901191023194_PrelimList.resx">
+      <DependentUpon>201901191023194_PrelimList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901191041244_PrelimListController.resx">
+      <DependentUpon>201901191041244_PrelimListController.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
