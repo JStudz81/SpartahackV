@@ -167,6 +167,10 @@
     <Compile Include="Migrations\201901191041244_PrelimListController.Designer.cs">
       <DependentUpon>201901191041244_PrelimListController.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201901191102330_IDK.cs" />
+    <Compile Include="Migrations\201901191102330_IDK.Designer.cs">
+      <DependentUpon>201901191102330_IDK.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\SpartaHackVContext.cs" />
     <Compile Include="Startup.cs" />
@@ -196,6 +200,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201901191041244_PrelimListController.resx">
       <DependentUpon>201901191041244_PrelimListController.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901191102330_IDK.resx">
+      <DependentUpon>201901191102330_IDK.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
