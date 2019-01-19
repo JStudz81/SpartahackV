@@ -28,6 +28,11 @@ namespace SpartaHackVService.Migrations
             //      new Person { FullName = "Rowan Miller" }
             //    );
             //
+
+            context.Lists.AddOrUpdate(
+                list => list.Id,
+                new DataObjects.List { title = "Kroger", date = "1/19/2019", Deleted = false }
+            );
         }
     }
 }

@@ -10,6 +10,8 @@ namespace SpartaHackVService
         public void Configuration(IAppBuilder app)
         {
             ConfigureMobileApp(app);
+
+       
         }
     }
 }
