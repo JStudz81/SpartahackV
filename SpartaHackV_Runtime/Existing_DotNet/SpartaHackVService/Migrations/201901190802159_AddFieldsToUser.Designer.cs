@@ -7,13 +7,13 @@ namespace SpartaHackVService.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class CreateUser : IMigrationMetadata
+    public sealed partial class AddFieldsToUser : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(CreateUser));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(AddFieldsToUser));
         
         string IMigrationMetadata.Id
         {
-            get { return "201901190716040_CreateUser"; }
+            get { return "201901190802159_AddFieldsToUser"; }
         }
         
         string IMigrationMetadata.Source

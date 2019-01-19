@@ -1,3 +1,4 @@
+using Microsoft.Azure.Mobile.Server.Tables;
 namespace SpartaHackVService.Migrations
 {
     using System;
@@ -10,6 +11,7 @@ namespace SpartaHackVService.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
+            SetSqlGenerator("System.Data.SqlClient", new EntityTableSqlGenerator());
         }
 
         protected override void Seed(SpartaHackVService.Models.SpartaHackVContext context)

@@ -5,7 +5,7 @@ namespace SpartaHackVService.DataObjects
 
     public class User : EntityData
     {
-        public string Text { get; set; }
-        public bool Complete { get; set; }
+        public string username { get; set; }
+        public string password { get; set; }
     }
 }

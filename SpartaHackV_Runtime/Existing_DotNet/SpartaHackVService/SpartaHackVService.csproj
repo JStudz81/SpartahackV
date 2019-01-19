@@ -153,9 +153,9 @@
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="DataObjects\TodoItem.cs" />
     <Compile Include="DataObjects\User.cs" />
-    <Compile Include="Migrations\201901190716040_CreateUser.cs" />
-    <Compile Include="Migrations\201901190716040_CreateUser.Designer.cs">
-      <DependentUpon>201901190716040_CreateUser.cs</DependentUpon>
+    <Compile Include="Migrations\201901190802159_AddFieldsToUser.cs" />
+    <Compile Include="Migrations\201901190802159_AddFieldsToUser.Designer.cs">
+      <DependentUpon>201901190802159_AddFieldsToUser.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\SpartaHackVContext.cs" />
@@ -178,8 +178,8 @@
     <None Include="Properties\PublishProfiles\SpartaHackV - Web Deploy.pubxml" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201901190716040_CreateUser.resx">
-      <DependentUpon>201901190716040_CreateUser.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201901190802159_AddFieldsToUser.resx">
+      <DependentUpon>201901190802159_AddFieldsToUser.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
